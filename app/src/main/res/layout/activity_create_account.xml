@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logoapp"
+            android:contentDescription="App Logo"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/firstNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:padding="12dp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/lastNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:padding="12dp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Currency Spinner -->
+        <Spinner
+            android:id="@+id/currency_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3" />
+    </LinearLayout>
+</ScrollView>

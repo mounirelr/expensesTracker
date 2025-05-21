@@ -1,0 +1,123 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/navbar"
+android:layout_width="match_parent"
+android:layout_height="56dp"
+android:layout_alignParentBottom="true"
+android:background="#FFFFFF"
+android:elevation="8dp"
+android:orientation="horizontal"
+android:weightSum="5">
+
+
+<LinearLayout
+    android:id="@+id/budgetSection"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/budget"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budget"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/historyButton"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/history"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/addExpense"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/add"
+        android:background="#1976D2"
+        android:padding="8dp"
+        android:elevation="4dp"
+        android:clipToOutline="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/categoryButton"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/category"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/profilButton"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/profil"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"/>
+</LinearLayout>
+</LinearLayout>
