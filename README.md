@@ -59,7 +59,7 @@ A **simple and intuitive mobile application** for managing personal finances. Tr
 ### Prerequisites
 
 - Android Studio
-- MySQL & PHP Server (e.g., XAMPP or live server)
+- MySQL & PHP Server ( XAMPP  ,Wamp ,Mamp)
 - Internet connection (for API calls)
 
 ### Installation Steps
