@@ -25,10 +25,10 @@ A **simple and intuitive mobile application** for managing personal finances. Tr
 
 ## 🛠️ Tech Stack
 
-- **Platform**: Android (Java/Kotlin)
+- **Platform**: Android (Java)
 - **Backend**: PHP + MySQL
 - **Networking**: Volley (API calls)
-- **Database**: Room (SQLite ORM)
+- **Database**: Room 
 - **Architecture**: MVVM
 
 ---
