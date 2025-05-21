@@ -42,7 +42,7 @@ A **simple and intuitive mobile application** for managing personal finances. Tr
 │   └── Wallet.java                # Optional: Model for wallet/balance
 
 /viewmodel
-│   └── ExpenseWithWalletAndCategory.kt   # Combines expense with wallet and category data
+│   └── ExpenseWithWalletAndCategory.java   # Combines expense with wallet and category data
 
 /service
 │   ├── AuthServiceVolley.java     # Handles login and registration API requests
